@@ -11,6 +11,33 @@ function Navbar() {
   const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
   const closeMobileMenu = () => setIsOpenMenu(false);
 
+  const links = [
+    {
+      title: 'O nas',
+      path: 'o-nas',
+    },
+    {
+      title: 'Oferta',
+      path: 'oferta',
+    },
+    {
+      title: 'Cennik',
+      path: 'cennik',
+    },
+    {
+      title: 'Referencje',
+      path: 'referencje',
+    },
+    {
+      title: 'Realizacje',
+      path: 'realizacje',
+    },
+    {
+      title: 'Kontakt',
+      path: 'kontakt',
+    },
+  ];
+
   return (
     <header className='fixed top-0 left-0 px-6 w-full h-14 flex justify-between items-center bg-white'>
       <Link href={'/'} className='z-10' onClick={closeMobileMenu}>
@@ -25,28 +52,21 @@ function Navbar() {
       </Link>
       <nav className='flex items-center'>
         <ul
-          className={`fixed top-0 right-0 w-full h-screen bg-white flex flex-col justify-center items-center transition ${
-            isOpenMenu ? 'translate-x-[0]' : 'translate-x-[100%]'
+          className={`fixed top-0 right-0 w-full h-screen bg-slate-100 flex flex-col justify-center items-center transition ${
+            isOpenMenu ? 'opacity-1' : 'opacity-0'
           }`}
         >
-          <li>
-            <Link href={'/o-nas'}>O nas</Link>
-          </li>
-          <li>
-            <Link href={'/oferta'}>Oferta</Link>
-          </li>
-          <li>
-            <Link href={'/cennik'}>Cennik</Link>
-          </li>
-          <li>
-            <Link href={'/referencje'}>Referencje</Link>
-          </li>
-          <li>
-            <Link href={'/realizacje'}>Realizacje</Link>
-          </li>
-          <li>
-            <Link href={'/kontakt'}>Kontakt</Link>
-          </li>
+          {links.map(({ path, title }) => (
+            <li key={title}>
+              <Link
+                href={path}
+                className='block py-4 text-lg'
+                onClick={closeMobileMenu}
+              >
+                {title}
+              </Link>
+            </li>
+          ))}
         </ul>
         <div className='flex gap-2 z-10'>
           <Link href={'https://www.instagram.com'} target='_blank'>
