@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Footer from '@/components/Footer';
 
 export const metadata = {
   title: 'Next.js',
@@ -21,6 +22,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

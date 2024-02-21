@@ -39,7 +39,7 @@ function Navbar() {
   ];
 
   return (
-    <header className='fixed top-0 left-0 px-6 w-full h-14 flex justify-between items-center bg-white'>
+    <header className='fixed top-0 left-0 px-6 w-full h-16 flex justify-between items-center bg-white'>
       <Link href={'/'} className='z-10' onClick={closeMobileMenu}>
         <Image
           src={'/images/logo.png'}
@@ -52,8 +52,8 @@ function Navbar() {
       </Link>
       <nav className='flex items-center'>
         <ul
-          className={`fixed top-0 right-0 w-full h-screen bg-slate-100 flex flex-col justify-center items-center transition ${
-            isOpenMenu ? 'opacity-1' : 'opacity-0'
+          className={`fixed top-0 right-0 w-full h-screen bg-white flex flex-col justify-center items-center transition ${
+            isOpenMenu ? 'opacity-1 visible' : 'opacity-0 invisible'
           }`}
         >
           {links.map(({ path, title }) => (
@@ -77,7 +77,7 @@ function Navbar() {
           </Link>
         </div>
         <div
-          className='flex flex-col justify-between items-center w-11 h-11 py-3 translate-x-[10px]'
+          className='flex flex-col justify-between items-center w-11 h-11 py-3 translate-x-[10px] cursor-pointer'
           onClick={handleMobileMenu}
         >
           <span
