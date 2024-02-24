@@ -1,17 +1,16 @@
-import Image from 'next/image';
-import React from 'react';
+import HeroSection from '@/components/HeroSection';
+import { homeData } from '@/data/data';
 
 function Home() {
   return (
-    <div className='w-full h-screen'>
-      <Image
-        src={'/images/home.jpg'}
-        alt='Home image'
-        width={1920}
-        height={0}
-        className='w-full h-screen bg-cover'
+    <>
+      <HeroSection
+        bgImage={homeData.img}
+        title={homeData.title}
+        description={homeData.description}
+        buttonTitle={homeData.buttonTitle}
       />
-    </div>
+    </>
   );
 }
 
