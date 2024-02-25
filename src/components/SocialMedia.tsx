@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import { IoLogoFacebook, IoLogoInstagram } from 'react-icons/io5';
 
 function SocialMedia() {

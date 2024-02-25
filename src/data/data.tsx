@@ -1,6 +1,5 @@
 import {
   IoColorPaletteOutline,
-  IoHappy,
   IoHappyOutline,
   IoStarOutline,
 } from 'react-icons/io5';
@@ -33,11 +32,14 @@ export const navLinks = [
 ];
 
 export const homeData = {
-  title: 'Twój dom, nasza pasja',
-  img: '/images/home.jpg',
-  description:
-    'W Infratech tworzymy inteligentne domy z pasją. Nowoczesne instalacje,designerski styl, SmartHouse - razem przekształcamy marzenia w rzeczywistość.',
-  buttonTitle: 'Poznaj naszą ofertę',
+  hero: {
+    heading: 'Twój dom, nasza pasja',
+    img: '/images/home.jpg',
+    description:
+      'W Infratech tworzymy inteligentne domy z pasją. Nowoczesne instalacje,designerski styl, SmartHouse - razem przekształcamy marzenia w rzeczywistość.',
+    label: 'Poznaj naszą ofertę',
+  },
+
   content: ['lorem ipsum dolor sit amet', 'text2'],
   values: [
     {

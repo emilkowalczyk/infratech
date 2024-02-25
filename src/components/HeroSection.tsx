@@ -1,21 +1,17 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import Button from './Button';
+import { navLinks } from '@/data/data';
 
-type HeroSectionProps = {
+type Props = {
   bgImage: string;
   title: string;
   description: string;
-  buttonTitle: string;
+  label: string;
 };
 
-function HeroSection({
-  bgImage,
-  title,
-  description,
-  buttonTitle,
-}: HeroSectionProps) {
+function HeroSection({ bgImage, title, description, label }: Props) {
   return (
-    <div className='w-full min-h-screen flex flex-col justify-center px-6 gap-8'>
+    <div className='w-full min-h-screen flex flex-col justify-center px-6'>
       <Image
         src={bgImage}
         alt='Home image'
@@ -23,16 +19,11 @@ function HeroSection({
         height={0}
         className='h-screen object-cover absolute top-0 left-0 -z-10 brightness-[50%]'
       />
-      <h1 className='text-4xl text-white font-bold uppercase text-center leading-tight'>
+      <h1 className='text-4xl text-white font-bold uppercase text-center leading-tight mb-8'>
         {title}
       </h1>
       <p className='text-white text-center text-sm'>{description}</p>
-      <Link
-        href={'/oferta'}
-        className='block text-white text-center border-2 border-white px-4 py-4 font-bold hover:text-black hover:bg-white transition'
-      >
-        {buttonTitle}
-      </Link>
+      <Button path={navLinks[1].path} label={label} />
     </div>
   );
 }

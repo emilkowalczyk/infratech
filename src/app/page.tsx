@@ -1,18 +1,21 @@
+import Button from '@/components/Button';
+import CompanyValues from '@/components/CompanyValues';
 import ContentWrapper from '@/components/ContentWrapper';
 import Heading from '@/components/Heading';
 import HeroSection from '@/components/HeroSection';
 import Offer from '@/components/Offer';
 import Text from '@/components/Text';
-import { homeData } from '@/data/data';
+import { homeData, navLinks } from '@/data/data';
+import Image from 'next/image';
 
 function Home() {
   return (
     <>
       <HeroSection
-        bgImage={homeData.img}
-        title={homeData.title}
-        description={homeData.description}
-        buttonTitle={homeData.buttonTitle}
+        bgImage={homeData.hero.img}
+        title={homeData.hero.heading}
+        description={homeData.hero.description}
+        label={homeData.hero.label}
       />
       <ContentWrapper>
         <Heading label='Od marzeń do realizacji' underline />
@@ -20,21 +23,22 @@ function Home() {
       </ContentWrapper>
       <Offer />
       <ContentWrapper>
-        <div className='flex flex-col md:flex-row justify-center items-center w-full'>
-          {homeData.values.map((value) => (
-            <div
-              key={value.title}
-              className='w-full py-6 flex flex-col justify-center items-center gap-1'
-            >
-              {value.icon}
-              <h3 className='font-bold text-md uppercase mt-4'>
-                {value.title}
-              </h3>
-              <p className='text-sm'>{value.subtitle}</p>
-            </div>
-          ))}
-        </div>
+        <CompanyValues />
       </ContentWrapper>
+      <div className='my-20 relative w-full'>
+        <Image
+          src={'/images/architecture.jpg'}
+          alt='smarthome'
+          width={1920}
+          height={0}
+          className='w-full h-screen object-cover'
+        />
+        <div className='absolute bottom-0 left-0 text-white w-full bg-gradient-to-t from-[rgba(0,0,0,0.5)] to-[rgba(0,0,0,0.05)] pb-6 pt-20 px-6'>
+          <Heading label='Lorem ipsum' underline color='white' />
+          <Text content='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti totam culpa, quibusdam animi cum officiis maxime accusantium aut suscipit alias nisi modi. Cupiditate, sunt. Tenetur nisi ipsa pariatur saepe laudantium!' />
+          <Button path={navLinks[4].path} label='Zobacz więcej' />
+        </div>
+      </div>
     </>
   );
 }
