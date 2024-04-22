@@ -3,7 +3,7 @@
 import { navLinks } from '@/data/data';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import SocialMedia from './SocialMedia';
 
 function Navbar() {
@@ -12,17 +12,23 @@ function Navbar() {
   const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
   const closeMobileMenu = () => setIsOpenMenu(false);
 
+  useEffect(() => {
+    if (window.innerWidth >= 1024) {
+      setIsOpenMenu(true);
+    } else setIsOpenMenu(false);
+  }, []);
+
   return (
     <header
       className={`${
         isOpenMenu ? 'fixed' : 'absolute'
-      } top-0 left-0 px-6 w-full h-20 flex justify-between items-center bg-white z-50`}
+      } top-0 left-0 px-4 w-full h-14 flex justify-between items-center bg-white z-50`}
     >
-      <Link href={'/'} className='z-50' onClick={closeMobileMenu}>
+      <Link href={'/'} onClick={closeMobileMenu}>
         <Image
           src={'/images/logo.png'}
           alt='logo'
-          width={150}
+          width={100}
           height={0}
           priority
           className={`w-auto transition duration-300`}
@@ -32,7 +38,8 @@ function Navbar() {
         <ul
           className={`fixed top-0 right-0 w-full h-screen bg-white flex flex-col justify-center items-center transition-all duration-300 ${
             isOpenMenu ? 'opacity-1 visible' : 'opacity-0 invisible'
-          }`}
+          } 
+           lg:static lg:w-auto lg:h-auto lg:bg-transparent lg:opacity-1 lg:visible lg:flex-row lg:gap-6`}
         >
           {navLinks.map(({ path, title }) => (
             <li key={title}>
@@ -48,7 +55,7 @@ function Navbar() {
         </ul>
         <SocialMedia />
         <div
-          className='flex flex-col justify-between items-center w-11 h-11 py-3 translate-x-[10px] cursor-pointer'
+          className='lg:hidden flex flex-col justify-between items-center w-11 h-11 py-3 -scale-[0.8] translate-x-[10px] cursor-pointer'
           onClick={handleMobileMenu}
         >
           <span

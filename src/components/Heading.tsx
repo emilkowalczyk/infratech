@@ -1,17 +1,21 @@
 type Props = {
   label: string;
-  color?: string;
+  textColor?: string;
+  bgColor: string;
   underline?: boolean;
 };
 
-function Heading({ label, color = 'black', underline }: Props) {
+function Heading({
+  label,
+  textColor = 'black',
+  bgColor = 'black',
+  underline,
+}: Props) {
   return (
-    <div className='flex flex-col items-center'>
-      <h2 className={`text-4xl font-bold text-center mb-8 text-${color}`}>
-        {label}
-      </h2>
+    <div className={`flex flex-col items-center`}>
+      <h2 className={`text-3xl font-bold mb-8 ${textColor}`}>{label}</h2>
       {underline && (
-        <span className={`block w-[100px] h-[2px] bg-${color}`}></span>
+        <span className={`block w-[100px] h-[1px] mb-8 ${bgColor}`}></span>
       )}
     </div>
   );
