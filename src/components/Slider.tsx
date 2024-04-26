@@ -32,7 +32,7 @@ function Slider() {
       />
       <Carousel
         additionalTransfrom={0}
-        arrows
+        arrows={false}
         autoPlay
         autoPlaySpeed={10000}
         centerMode={false}
@@ -52,7 +52,7 @@ function Slider() {
         rewindWithAnimation={false}
         rtl={false}
         shouldResetAutoplay
-        showDots
+        showDots={false}
         sliderClass=''
         slidesToSlide={1}
         swipeable
