@@ -64,7 +64,7 @@ function Slider() {
             height={720}
             alt='x'
             src='/images/electrical.jpg'
-            className='w-auto object-cover max-h-[720px] block'
+            className='w-full min-h-[480px] h-auto object-cover max-h-[720px] block'
             priority
           />
         </div>
@@ -74,7 +74,7 @@ function Slider() {
             height={720}
             alt='x'
             src='/images/smarthome.jpg'
-            className='w-auto object-cover max-h-[720px] block'
+            className='w-full min-h-[480px] h-auto object-cover max-h-[720px] block'
           />
         </div>
       </Carousel>

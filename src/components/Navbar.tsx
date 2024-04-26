@@ -11,7 +11,7 @@ function Navbar() {
   const handleMenu = () => setMenu(!menu);
 
   return (
-    <nav className='w-full py-4 bg-white lg:py-6 fixed top-0 left-0 z-50 shadow-lg'>
+    <nav className='w-full py-4 bg-white lg:py-6 sticky top-0 left-0 z-50 shadow-lg'>
       <div className='px-5 mx-auto lg:max-w-7xl flex justify-between items-center'>
         {/* Logo with link to homepage */}
         <a href='/' className='block'>
