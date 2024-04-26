@@ -6,7 +6,7 @@ function Footer() {
   const date = new Date().getFullYear();
 
   return (
-    <div className='bg-white px-4 py-6 grid grid-cols-1 gap-6 z-0 items-center lg:grid-cols-[auto_1fr_auto]'>
+    <footer className='bg-white px-5 py-6 grid grid-cols-1 gap-6 z-0 items-center lg:max-w-7xl lg:mx-auto lg:grid-cols-[auto_1fr_auto]'>
       <Link href={'/'} className='z-0 flex justify-center'>
         <Image
           src={'/images/logo.png'}
@@ -27,7 +27,7 @@ function Footer() {
       <p className='flex justify-center'>
         infratechgroup.pl Copyright &copy; {date}
       </p>
-    </div>
+    </footer>
   );
 }
 
