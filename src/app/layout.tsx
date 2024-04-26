@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang='pl'>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning>
         <Navbar />
         {children}
         <Footer />

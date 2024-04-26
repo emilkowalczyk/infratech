@@ -52,7 +52,7 @@ function Slider() {
         rewindWithAnimation={false}
         rtl={false}
         shouldResetAutoplay
-        // showDots
+        showDots
         sliderClass=''
         slidesToSlide={1}
         swipeable
@@ -64,7 +64,17 @@ function Slider() {
             height={720}
             alt='x'
             src='/images/electrical.jpg'
-            className='w-full max-w-full h-[720px] object-cover max-h-[720px] block'
+            className='w-auto object-cover max-h-[720px] block'
+            priority
+          />
+        </div>
+        <div className='relative'>
+          <Image
+            width={1920}
+            height={720}
+            alt='x'
+            src='/images/smarthome.jpg'
+            className='w-auto object-cover max-h-[720px] block'
           />
         </div>
       </Carousel>

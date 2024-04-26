@@ -1,82 +1,59 @@
 'use client';
 
-import { navLinks } from '@/data/data';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useEffect, useState } from 'react';
-import SocialMedia from './SocialMedia';
+import { useState } from 'react';
 
 function Navbar() {
-  const [isOpenMenu, setIsOpenMenu] = useState(false);
+  const [menu, setMenu] = useState(false);
 
-  const handleMobileMenu = () => setIsOpenMenu(!isOpenMenu);
-  const closeMobileMenu = () => setIsOpenMenu(false);
-
-  useEffect(() => {
-    if (window.innerWidth >= 1024) {
-      setIsOpenMenu(true);
-    } else setIsOpenMenu(false);
-  }, []);
+  const handleMenu = () => setMenu(!menu);
 
   return (
-    <header
-      className={`${
-        isOpenMenu ? 'fixed' : 'absolute'
-      } top-0 left-0 px-4 w-full h-14 flex justify-between items-center bg-white z-50`}
-    >
-      <Link href={'/'} onClick={closeMobileMenu}>
-        <Image
-          src={'/images/logo.png'}
-          alt='logo'
-          width={100}
-          height={0}
-          priority
-          className={`w-auto transition duration-300`}
-        />
-      </Link>
-      <nav className='flex items-center'>
+    <nav className='w-full py-4 bg-white lg:py-6 fixed top-0 left-0 z-50 shadow-lg'>
+      <div className='px-5 mx-auto lg:max-w-7xl flex justify-between items-center'>
+        {/* Logo with link to homepage */}
+        <a href='/' className='block'>
+          <Image
+            src={'/images/logo.png'}
+            width={300}
+            height={0}
+            alt='Logo'
+            className='w-[150px] lg:w-[200px]'
+          />
+        </a>
+        {/* Navigation links */}
         <ul
-          className={`fixed top-0 right-0 w-full h-screen bg-white flex flex-col justify-center items-center transition-all duration-300 ${
-            isOpenMenu ? 'opacity-1 visible' : 'opacity-0 invisible'
-          } 
-           lg:static lg:w-auto lg:h-auto lg:bg-transparent lg:opacity-1 lg:visible lg:flex-row lg:gap-6`}
+          className={`w-[300px] h-screen bg-white flex flex-col justify-center items-center fixed top-0 right-0 transition-all ${
+            menu ? 'translate-x-0' : 'translate-x-full'
+          }`}
         >
-          {navLinks.map(({ path, title }) => (
-            <li key={title}>
-              <Link
-                href={path}
-                className='block py-4 text-lg'
-                onClick={closeMobileMenu}
-              >
-                {title}
-              </Link>
-            </li>
-          ))}
+          <li>link1</li>
+          <li>link2</li>
+          <li>link3</li>
         </ul>
-        <SocialMedia />
+        {/* Mobile icon */}
         <div
-          className='lg:hidden flex flex-col justify-between items-center w-11 h-11 py-3 -scale-[0.8] translate-x-[10px] cursor-pointer'
-          onClick={handleMobileMenu}
+          onClick={handleMenu}
+          className='w-[40px] h-[40px] flex flex-col justify-between items-center py-2 translate-x-2'
         >
           <span
-            className={`w-6 h-[2px] bg-black 
-            ${
-              isOpenMenu ? 'rotate-45 translate-y-[9px]' : 'rotate-0'
-            } transition duration-300`}
+            className={`block w-[24px] h-[3px] bg-black ${
+              menu ? 'rotate-45 translate-y-[10px]' : 'rotate-0'
+            } transition-all`}
           ></span>
           <span
-            className={`w-6 h-[2px] bg-black ${
-              isOpenMenu ? 'opacity-0' : 'opacity-1'
-            } transition duration-300`}
+            className={`block w-[24px] h-[3px] bg-black ${
+              menu ? 'opacity-0' : 'opacity-100'
+            } transition-all`}
           ></span>
           <span
-            className={`w-6 h-[2px]  bg-black ${
-              isOpenMenu ? '-rotate-45 -translate-y-[9px]' : 'rotate-0'
-            } transition duration-300`}
+            className={`block w-[24px] h-[3px] bg-black ${
+              menu ? '-rotate-45 -translate-y-[11px]' : 'rotate-0'
+            } transition-all`}
           ></span>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
   );
 }
 

@@ -23,7 +23,7 @@ function Home() {
           textColor='text-black'
         />
 
-        <p className='w-4/5 text-center text-gray-600'>{homeData.content[0]}</p>
+        <p className='text-center text-gray-600'>{homeData.content[0]}</p>
       </ContentWrapper>
       <Offer />
       <ContentWrapper>
