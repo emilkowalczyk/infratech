@@ -96,9 +96,9 @@ function Slider() {
             className='w-full min-h-[480px] h-auto object-cover max-h-[640px] block'
             priority
           />
-          <div className='w-full h-full bg-gradient-to-t from-black to-transparent z-10 absolute bottom-0 left-0'>
+          <div className='w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent z-10 absolute bottom-0 left-0'>
             <div className='px-5 pb-5 flex flex-col justify-end w-full h-full max-w-7xl mx-auto md:-translate-y-10'>
-              <h1 className='text-3xl text-white mb-5 md:text-5xl'>
+              <h1 className='text-3xl text-white mb-5 md:text-6xl'>
                 Konceptualna Przemiana Przestrzeni Wnętrznej
               </h1>
               <p className='hidden md:block text-white mb-5'>

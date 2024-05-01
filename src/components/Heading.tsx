@@ -13,7 +13,7 @@ function Heading({
 }: Props) {
   return (
     <div className={`flex flex-col items-center`}>
-      <h2 className={`text-3xl font-bold mb-8 text-center ${textColor}`}>
+      <h2 className={`text-3xl font-bold my-5 text-center ${textColor}`}>
         {label}
       </h2>
       {underline && (
