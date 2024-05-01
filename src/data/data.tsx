@@ -38,7 +38,7 @@ export const heroDetails = [
     description:
       'W Infratech tworzymy inteligentne domy z pasją. Nowoczesne instalacje,designerski styl, SmartHouse - razem przekształcamy marzenia w rzeczywistość.',
     btnLabel: 'Poznaj naszą ofertę',
-    bgImage: '/images/home.jpg',
+    bgImage: '/images/home1.jpg',
   },
   {
     //architektura wnetrz

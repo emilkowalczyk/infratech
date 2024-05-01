@@ -13,7 +13,7 @@ function Offer() {
         textColor='text-black'
         bgColor='bg-black'
       />
-      <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-4'>
+      <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-5'>
         {offerData.map((offer) => (
           <Link href={offer.path} key={offer.title}>
             <div className='relative overflow-hidden hover:shadow-xl transition-all duration-300'>
