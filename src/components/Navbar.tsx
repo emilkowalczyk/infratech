@@ -33,7 +33,7 @@ function Navbar() {
             <li key={navLink.title}>
               <a
                 href={navLink.path}
-                className='px-3 py-2 block uppercase active:text-gray-600'
+                className='overflow-hidden px-3 py-2 block uppercase active:text-gray-600 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[3px] before:bg-black before:-translate-x-[101%] before:transition-all hover:before:translate-x-0'
               >
                 {navLink.title}
               </a>
@@ -46,7 +46,7 @@ function Navbar() {
         {/* Mobile icon */}
         <div
           onClick={handleMenu}
-          className='w-[40px] h-[40px] flex flex-col justify-between items-center py-2 translate-x-2 lg:hidden'
+          className='w-[40px] h-[40px] flex flex-col justify-between items-center py-2 translate-x-2 lg:hidden cursor-pointer'
         >
           <span
             className={`block w-[24px] h-[3px] bg-black ${
