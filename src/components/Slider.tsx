@@ -52,13 +52,7 @@ function Slider() {
   };
 
   return (
-    <div className='my-20 w-full flex flex-col relative'>
-      <Heading
-        label='Nasze realizacje'
-        textColor='text-black'
-        bgColor='bg-black'
-        underline
-      />
+    <div className='w-full flex flex-col relative'>
       <Carousel
         additionalTransfrom={0}
         arrows={true}
@@ -93,15 +87,15 @@ function Slider() {
             height={720}
             alt='x'
             src='/images/certificates.jpg'
-            className='w-full min-h-[480px] h-auto object-cover max-h-[640px] block'
+            className='w-full min-h-[480px] h-auto object-cover max-h-[800px] block'
             priority
           />
           <div className='w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent z-10 absolute bottom-0 left-0'>
             <div className='px-5 pb-5 flex flex-col justify-end w-full h-full max-w-7xl mx-auto md:-translate-y-10'>
-              <h1 className='text-3xl text-white mb-5 md:text-6xl'>
+              <h1 className='text-3xl text-white mb-6 md:text-6xl'>
                 Konceptualna Przemiana Przestrzeni Wnętrznej
               </h1>
-              <p className='hidden md:block text-white mb-5'>
+              <p className='hidden md:block text-white mb-6'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
                 delectus ea fugit non accusamus temporibus doloremque nostrum
                 maiores, repudiandae eum deserunt eius. Eligendi, quaerat ad!

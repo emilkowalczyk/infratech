@@ -36,7 +36,7 @@ export const heroDetails = [
     //homepage
     heading: 'Twój dom, nasza pasja',
     description:
-      'W Infratech tworzymy inteligentne domy z pasją. Nowoczesne instalacje,designerski styl, SmartHouse - razem przekształcamy marzenia w rzeczywistość.',
+      'W Infratech tworzymy inteligentne domy z pasją. Nowoczesne instalacje, designerski styl, smartHouse - razem przekształcamy marzenia w rzeczywistość.',
     btnLabel: 'Poznaj naszą ofertę',
     bgImage: '/images/home1.jpg',
   },

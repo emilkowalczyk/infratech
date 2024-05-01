@@ -13,11 +13,9 @@ function Heading({
 }: Props) {
   return (
     <div className={`flex flex-col items-center`}>
-      <h2 className={`text-3xl font-bold my-5 text-center ${textColor}`}>
-        {label}
-      </h2>
+      <h2 className={`text-3xl font-bold text-center ${textColor}`}>{label}</h2>
       {underline && (
-        <span className={`block w-[100px] h-[1px] mb-8 ${bgColor}`}></span>
+        <span className={`block w-[150px] h-[1px] my-5 ${bgColor}`}></span>
       )}
     </div>
   );
