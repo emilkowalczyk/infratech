@@ -33,7 +33,7 @@ function Navbar() {
             <li key={navLink.title}>
               <a
                 href={navLink.path}
-                className='overflow-hidden px-3 py-2 block uppercase active:text-gray-600 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[3px] before:bg-black before:-translate-x-[101%] before:transition-all hover:before:translate-x-0'
+                className='overflow-hidden px-3 py-2 block uppercase active:text-gray-600 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-black before:-translate-x-[101%] before:transition-all hover:before:translate-x-0'
               >
                 {navLink.title}
               </a>
