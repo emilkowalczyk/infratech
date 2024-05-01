@@ -5,6 +5,7 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Heading from './Heading';
+import Button from './Button';
 
 function Slider() {
   const responsive = {
@@ -23,7 +24,7 @@ function Slider() {
   };
 
   return (
-    <div className='my-20 w-full flex flex-col'>
+    <div className='my-20 w-full flex flex-col relative'>
       <Heading
         label='Nasze realizacje'
         textColor='text-black'
@@ -32,11 +33,11 @@ function Slider() {
       />
       <Carousel
         additionalTransfrom={0}
-        arrows={false}
+        arrows={true}
         autoPlay
         autoPlaySpeed={10000}
         centerMode={false}
-        className='max-w-full'
+        className='max-w-full z-0'
         containerClass='container'
         dotListClass=''
         draggable
@@ -63,21 +64,22 @@ function Slider() {
             width={1920}
             height={720}
             alt='x'
-            src='/images/electrical.jpg'
-            className='w-full min-h-[480px] h-auto object-cover max-h-[720px] block'
+            src='/images/certificates.jpg'
+            className='w-full min-h-[480px] h-auto object-cover max-h-[640px] block'
             priority
           />
         </div>
-        <div className='relative'>
-          <Image
-            width={1920}
-            height={720}
-            alt='x'
-            src='/images/smarthome.jpg'
-            className='w-full min-h-[480px] h-auto object-cover max-h-[720px] block'
-          />
-        </div>
       </Carousel>
+      <div className='fixed '>
+        <h1>implementation title</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
+          delectus ea fugit non accusamus temporibus doloremque nostrum maiores,
+          repudiandae eum deserunt eius. Eligendi, quaerat ad! Tempora amet et
+          voluptas provident?
+        </p>
+        <Button label='Więcej realizacji' path='/realizacje' />
+      </div>
     </div>
   );
 }

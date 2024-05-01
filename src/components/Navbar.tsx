@@ -11,8 +11,8 @@ function Navbar() {
   const handleMenu = () => setMenu(!menu);
 
   return (
-    <nav className='w-full py-4 bg-white lg:py-6 sticky top-0 left-0 z-50 shadow-lg'>
-      <div className='px-5 mx-auto lg:max-w-7xl flex justify-between items-center'>
+    <nav className='w-full bg-white sticky top-0 left-0 z-50 shadow-lg'>
+      <div className='px-5 h-16 lg:h-20 mx-auto lg:max-w-7xl flex justify-between items-center'>
         {/* Logo with link to homepage */}
         <a href='/' className='block'>
           <Image
@@ -33,7 +33,7 @@ function Navbar() {
             <li key={navLink.title}>
               <a
                 href={navLink.path}
-                className='overflow-hidden px-3 py-2 block active:text-gray-600 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-black before:-translate-x-[101%] before:transition-all hover:before:translate-x-0'
+                className='overflow-hidden font-semibold px-2 py-2 block active:text-gray-600 relative before:absolute before:bottom-0 before:left-0 before:w-full before:h-[2px] before:bg-black before:-translate-x-[101%] before:transition-all hover:before:translate-x-0 lg:ml-6'
               >
                 {navLink.title}
               </a>

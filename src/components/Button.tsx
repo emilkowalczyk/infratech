@@ -9,7 +9,7 @@ function Button({ label, path }: Props) {
   return (
     <Link
       href={path}
-      className='block mt-4 w-full text-white text-center border-2 border-white px-4 py-4 font-bold hover:text-black hover:bg-white transition md:w-max md:min-w-64'
+      className='block mt-4 w-full text-white text-center border-2 border-white px-4 py-4 font-semibold hover:text-black hover:bg-white transition md:w-max md:min-w-64'
     >
       {label}
     </Link>

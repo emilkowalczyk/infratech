@@ -13,7 +13,7 @@ function ONas() {
 
             <span className={`block w-[100px] h-[1px] mb-8 bg-black`}></span>
           </div>
-          <p className='text-black'>
+          <p className='text-black text-center lg:text-left'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
             temporibus assumenda dignissimos voluptas nesciunt culpa nisi
             doloribus consequuntur error libero mollitia nihil eos, ab quisquam
