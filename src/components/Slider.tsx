@@ -1,41 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Heading from './Heading';
 import Button from './Button';
 
-const API_KEY = 'fae895029178f694290a8f08959c0a';
-const API_URL = 'https://graphql.datocms.com/';
-
 function Slider() {
-  const [artykuly, setArtykuly] = useState([]);
-
-  const fetchData = async () => {
-    try {
-      const response = await fetch(API_URL, {
-        headers: {
-          Authorization: `Bearer ${API_KEY}`,
-        },
-      });
-      if (response.ok) {
-        const data = await response.json();
-        setArtykuly(data);
-      } else {
-        console.error('Błąd podczas pobierania danych:', response.statusText);
-      }
-    } catch (error) {
-      console.error('Błąd podczas pobierania danych:', error);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-    console.log(artykuly);
-  });
-
   const responsive = {
     desktop: {
       breakpoint: { max: 5000, min: 1024 },
@@ -92,8 +63,8 @@ function Slider() {
           />
           <div className='w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent z-10 absolute bottom-0 left-0'>
             <div className='px-5 pb-5 flex flex-col justify-end w-full h-full max-w-7xl mx-auto md:-translate-y-10'>
-              <h1 className='text-3xl text-white mb-6 md:text-6xl'>
-                Konceptualna Przemiana Przestrzeni Wnętrznej
+              <h1 className='text-3xl text-white font-semibold mb-6 md:text-6xl'>
+                Konceptualna Przemiana Przestrzeni
               </h1>
               <p className='hidden md:block text-white mb-6'>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt
