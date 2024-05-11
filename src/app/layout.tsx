@@ -4,7 +4,7 @@ import './globals.css';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'Infratech',
+  title: 'InfratechGroup',
   description: 'Innowacyjne rozwiązania dla twojego domu',
 };
 
