@@ -82,7 +82,7 @@ function Slider() {
             height={720}
             alt='x'
             src='/images/home.jpg'
-            className='w-full min-h-[480px] h-auto object-cover max-h-[800px] block'
+            className='w-full min-h-[800px] h-auto object-cover max-h-[800px] block'
             priority
           />
           <div className='w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent z-10 absolute bottom-0 left-0'>
