@@ -5,7 +5,7 @@ import Offer from '@/components/Offer';
 import Slider from '@/components/Slider';
 import { heroDetails, homeData } from '@/data/data';
 
-function Home() {
+async function Home() {
   return (
     <>
       <HeroSection

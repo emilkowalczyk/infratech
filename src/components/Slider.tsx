@@ -3,10 +3,9 @@
 import Image from 'next/image';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import Heading from './Heading';
 import Button from './Button';
 
-function Slider() {
+function Slider(props: any) {
   const responsive = {
     desktop: {
       breakpoint: { max: 5000, min: 1024 },

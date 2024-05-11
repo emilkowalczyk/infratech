@@ -15,7 +15,7 @@ export const navLinks = [
   },
   {
     title: 'Cennik',
-    path: '/cennik',
+    path: '/oferta',
   },
   {
     title: 'Referencje',
