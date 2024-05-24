@@ -4,7 +4,7 @@ import React from 'react';
 
 function Kontakt() {
   return (
-    <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-5xl md:w-full'>
+    <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-7xl md:w-full'>
       <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
         <div>
           <div className={`flex flex-col items-center md:items-start`}>
@@ -12,11 +12,11 @@ function Kontakt() {
 
             <span className={`block w-[100px] h-[1px] my-6 bg-black`}></span>
           </div>
-          <p className='text-black text-center lg:text-left mb-6'>
-            <a href='mailto:example@mail.com'>example@mail.com</a>
+          <p className='text-black text-center lg:text-left mb-6'>E-mail:
+            <a href='mailto:example@mail.com'> kontakt@infratechgroup.pl</a>
           </p>
-          <p className='text-black text-center lg:text-left mb-6'>
-            <a href='tel:+123456789'>123-456-789</a>
+          <p className='text-black text-center lg:text-left mb-6'>Tel:
+            <a href='tel:+123456789'> 123-456-789</a>
           </p>
           {/* <Button label='Poznaj naszą ofertę' path='/oferta' invert /> */}
         </div>
