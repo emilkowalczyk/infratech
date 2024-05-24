@@ -6,11 +6,11 @@ function CompanyValues() {
       {homeData.values.map((value) => (
         <div
           key={value.title}
-          className='py-5 w-full flex flex-col justify-center items-center gap-1 basis-1/3'
+          className='py-5 w-full flex flex-col justify-center items-center gap-2 basis-1/3'
         >
           {value.icon}
-          <h3 className='font-bold text-md uppercase mt-4'>{value.title}</h3>
-          <p className='text-sm'>{value.subtitle}</p>
+          <h3 className='font-bold text-md uppercase mt-4 text-center'>{value.title}</h3>
+          <p className='text-sm text-center'>{value.subtitle}</p>
         </div>
       ))}
     </div>

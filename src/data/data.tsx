@@ -1,8 +1,8 @@
 import {
-  IoColorPaletteOutline,
-  IoHappyOutline,
-  IoStarOutline,
-} from 'react-icons/io5';
+  PiStar,
+  PiPuzzlePiece,
+  PiLightbulb
+} from 'react-icons/pi';
 
 export const navLinks = [
   {
@@ -43,28 +43,28 @@ export const heroDetails = [
   {
     //architektura wnetrz
     heading: 'Architektura wnętrz',
-    description: 'lorem ipsum dolor sit amet',
+    description: 'Kreujemy wnętrza, które łączą funkcjonalność z unikalnym designem. Nasz zespół doświadczonych architektów wnętrz pomoże Ci stworzyć przestrzeń marzeń, dbając o każdy detal od koncepcji po realizację. Pracujemy z pasją i zaangażowaniem, by każdy projekt był odzwierciedleniem indywidualnych potrzeb i gustu naszych klientów.',
     btnLabel: 'Poznaj naszą ofertę',
     bgImage: '/images/architecture.jpg',
   },
   {
     //instalacje elektryczne
     heading: 'Instalacje elektryczne',
-    description: 'lorem ipsum dolor sit amet',
+    description: 'Oferujemy kompleksowe usługi w zakresie instalacji elektrycznych, od projektu po montaż i serwis. Gwarantujemy bezpieczeństwo, niezawodność oraz zgodność z najnowszymi standardami i normami. Nasze rozwiązania zapewniają komfort i bezpieczeństwo użytkowania, a także umożliwiają łatwą rozbudowę systemów w przyszłości.',
     btnLabel: 'Poznaj naszą ofertę',
     bgImage: '/images/electrical.jpg',
   },
   {
     //instalacje smarthome
     heading: 'Instalacje smarthome',
-    description: 'lorem ipsum dolor sit amet',
+    description: 'Wdrażamy nowoczesne rozwiązania smart home, które uczynią Twoje życie wygodniejszym i bezpieczniejszym. Zdalne sterowanie, inteligentne oświetlenie, systemy bezpieczeństwa – to tylko niektóre z możliwości, które oferujemy. Dzięki naszym rozwiązaniom Twój dom stanie się bardziej energooszczędny i przyjazny dla środowiska.',
     btnLabel: 'Poznaj naszą ofertę',
     bgImage: '/images/smarthome.jpg',
   },
   {
     //swiadectwa energetyczne
     heading: 'Świadectwa energetyczne',
-    description: 'lorem ipsum dolor sit amet',
+    description: 'Wykonujemy profesjonalne świadectwa energetyczne, które są niezbędne przy sprzedaży lub wynajmie nieruchomości. Zapewniamy rzetelną ocenę energetyczną budynków, pomagając obniżyć koszty eksploatacji. Nasze świadectwa energetyczne dostarczają niezbędnych informacji o efektywności energetycznej, co jest istotne dla świadomych ekologicznie klientów.',
     btnLabel: 'Poznaj naszą ofertę',
     bgImage: '/images/certificates.jpg',
   },
@@ -78,24 +78,21 @@ export const heroDetails = [
 ];
 
 export const homeData = {
-  content: [
-    'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti totam culpa, quibusdam animi cum officiis maxime accusantium aut suscipit alias nisi modi. Cupiditate, sunt. Tenetur nisi ipsa pariatur saepe laudantium!',
-  ],
   values: [
     {
-      icon: <IoHappyOutline size={56} />,
-      title: 'Dbałość o klienta',
-      subtitle: 'Indywidualnie traktujemy klienta',
+      icon: <PiStar size={56} />,
+      title: 'Profesjonalizm i Doświadczenie',
+      subtitle: 'Nasz zespół składa się z wykwalifikowanych specjalistów z wieloletnim doświadczeniem. Dzięki temu możemy zagwarantować najwyższą jakość naszych usług i pełne zadowolenie klientów.',
     },
     {
-      icon: <IoColorPaletteOutline size={56} />,
-      title: 'kreatywność',
-      subtitle: 'Nietypowe rozwiązania problemów',
+      icon: <PiPuzzlePiece size={56} />,
+      title: 'Indywidualne Podejście',
+      subtitle: 'Każdy projekt traktujemy indywidualnie, dostosowując nasze usługi do Twoich potrzeb i oczekiwań. Słuchamy naszych klientów i tworzymy rozwiązania, które idealnie odpowiadają ich wymaganiom.',
     },
     {
-      icon: <IoStarOutline size={56} />,
-      title: 'Jakość',
-      subtitle: 'Wysoka jakość usług',
+      icon: <PiLightbulb size={56} />,
+      title: 'Innowacyjność',
+      subtitle: 'Stale śledzimy najnowsze trendy i technologie, aby oferować nowoczesne i efektywne rozwiązania. Nasze innowacyjne podejście pozwala nam tworzyć przestrzenie przyszłości, które są funkcjonalne, stylowe i przyjazne środowisku.',
     },
   ],
 };

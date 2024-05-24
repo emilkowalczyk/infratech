@@ -13,10 +13,8 @@ function ONas() {
             <span className={`block w-[100px] h-[1px] my-6 bg-black`}></span>
           </div>
           <p className='text-black text-center lg:text-left mb-6'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
-            temporibus assumenda dignissimos voluptas nesciunt culpa nisi
-            doloribus consequuntur error libero mollitia nihil eos, ab quisquam
-            totam asperiores modi distinctio reprehenderit.
+            Jesteśmy wszechstronną firmą specjalizującą się w architekturze wnętrz, instalacjach smart home oraz kompleksowych remontach i modernizacjach budynków i mieszkań. Naszym celem jest przekształcenie Twojej przestrzeni w miejsce, które nie tylko zachwyca estetyką,
+            ale także odpowiada na potrzeby nowoczesnego stylu życia.
           </p>
           <Button label='Poznaj naszą ofertę' path='/oferta' invert />
         </div>

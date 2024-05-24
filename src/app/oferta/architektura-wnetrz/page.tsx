@@ -11,7 +11,7 @@ function ArchitekturaWnetrz() {
         description={heroDetails[1].description}
         btnLabel={heroDetails[1].btnLabel}
       />
-      <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-5xl md:w-full'>
+      <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-7xl md:w-full'>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
           <div>
             <div className={`flex flex-col items-center md:items-start`}>
@@ -37,7 +37,6 @@ function ArchitekturaWnetrz() {
           />
         </div>
       </div>
-      );
     </>
   );
 }

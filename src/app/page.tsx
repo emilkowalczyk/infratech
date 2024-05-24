@@ -3,7 +3,7 @@ import Heading from '@/components/Heading';
 import HeroSection from '@/components/HeroSection';
 import Offer from '@/components/Offer';
 import Slider from '@/components/Slider';
-import { heroDetails, homeData } from '@/data/data';
+import { heroDetails } from '@/data/data';
 
 async function Home() {
   return (
@@ -21,10 +21,11 @@ async function Home() {
           bgColor='bg-black'
           textColor='text-black'
         />
-        <p className='text-center text-gray-600'>{homeData.content[0]}</p>
+        <p className='text-center text-gray-600'>Jesteśmy wszechstronną firmą specjalizującą się w architekturze wnętrz, instalacjach smart home oraz kompleksowych remontach i modernizacjach budynków i mieszkań. Naszym celem jest przekształcenie Twojej przestrzeni w miejsce, które nie tylko zachwyca estetyką, ale także odpowiada na potrzeby nowoczesnego stylu życia.
+        </p>
       </div>
       <Offer />
-      <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-5xl md:w-full'>
+      <div className='mt-20 px-5 flex flex-col items-center md:mx-auto md:max-w-7xl md:w-full'>
         <Heading
           label='Dlaczego my?'
           underline
