@@ -1,6 +1,6 @@
-import Button from '@/components/Button';
 import Image from 'next/image';
 import React from 'react';
+import Button from "@/components/Button";
 
 function ONas() {
     return (
@@ -20,7 +20,6 @@ function ONas() {
                         przestrzeni w miejsce, które nie tylko zachwyca estetyką,
                         ale także odpowiada na potrzeby nowoczesnego stylu życia.
                     </p>
-                    <Button label='Poznaj naszą ofertę' path='/oferta' invert/>
                 </div>
                 <Image
                     src={'/images/architecture.jpg'}
@@ -39,6 +38,7 @@ function ONas() {
                         potencjalnych najemców. Dbamy o każdy szczegół, aby maksymalnie zwiększyć wartość
                         rynkową i atrakcyjność Twojej nieruchomości.
                     </p>
+                    <Button label='Poznaj naszą ofertę' path='/oferta' invert/>
                 </div>
                 <Image
                     src={'/images/home1.jpg'}
