@@ -62,13 +62,12 @@ export const heroDetails = [
         description: 'Wykonujemy profesjonalne świadectwa energetyczne, które są niezbędne przy sprzedaży lub wynajmie nieruchomości. Zapewniamy rzetelną ocenę energetyczną budynków, pomagając obniżyć koszty eksploatacji. Nasze świadectwa energetyczne dostarczają niezbędnych informacji o efektywności energetycznej, co jest istotne dla świadomych ekologicznie klientów.',
         btnLabel: 'Skontaktuj się z nami',
         bgImage: '/images/certificates.jpg',
-        btnPath: '/kontakt',
     },
     {
         //nadzor budowlany
         heading: 'Nadzór budowlany',
         description: 'lorem ipsum dolor sit amet',
-        btnLabel: 'Poznaj naszą ofertę',
+        btnLabel: 'Skontaktuj się z nami',
         bgImage: '/images/safety.jpg',
     },
 ];
@@ -123,5 +122,38 @@ export const offerData = [
         img: '/images/safety.jpg',
         alt: 'Nadzór budowlany',
         path: '/oferta/nadzor-budowlany',
+    },
+];
+
+export const portfolioData = [
+    {
+        title: 'Architektura wnętrz',
+        img: '/images/architecture.jpg',
+        alt: 'Architektura wnętrz',
+        path: '/realizacje/architektura-wnetrz',
+    },
+    {
+        title: 'Instalacje elektryczne',
+        img: '/images/electrical.jpg',
+        alt: 'Instalacje elektryczne',
+        path: '/realizacje/instalacje-elektryczne',
+    },
+    {
+        title: 'Instalacje smarthome',
+        img: '/images/smarthome.jpg',
+        alt: 'Instalacje smarthome',
+        path: '/realizacje/instalacje-smarthome',
+    },
+    {
+        title: 'Świadectwa energetyczne',
+        img: '/images/certificates.jpg',
+        alt: 'Świadectwa energetyczne',
+        path: '/realizacje/swiadectwa-energetyczne',
+    },
+    {
+        title: 'Nadzór budowlany',
+        img: '/images/safety.jpg',
+        alt: 'Nadzór budowlany',
+        path: '/realizacje/nadzor-budowlany',
     },
 ];
