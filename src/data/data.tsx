@@ -132,28 +132,28 @@ export const portfolioData = [
         alt: 'Architektura wnętrz',
         path: '/realizacje/architektura-wnetrz',
     },
-    {
-        title: 'Instalacje elektryczne',
-        img: '/images/electrical.jpg',
-        alt: 'Instalacje elektryczne',
-        path: '/realizacje/instalacje-elektryczne',
-    },
-    {
-        title: 'Instalacje smarthome',
-        img: '/images/smarthome.jpg',
-        alt: 'Instalacje smarthome',
-        path: '/realizacje/instalacje-smarthome',
-    },
-    {
-        title: 'Świadectwa energetyczne',
-        img: '/images/certificates.jpg',
-        alt: 'Świadectwa energetyczne',
-        path: '/realizacje/swiadectwa-energetyczne',
-    },
-    {
-        title: 'Nadzór budowlany',
-        img: '/images/safety.jpg',
-        alt: 'Nadzór budowlany',
-        path: '/realizacje/nadzor-budowlany',
-    },
+    // {
+    //     title: 'Instalacje elektryczne',
+    //     img: '/images/electrical.jpg',
+    //     alt: 'Instalacje elektryczne',
+    //     path: '/realizacje/instalacje-elektryczne',
+    // },
+    // {
+    //     title: 'Instalacje smarthome',
+    //     img: '/images/smarthome.jpg',
+    //     alt: 'Instalacje smarthome',
+    //     path: '/realizacje/instalacje-smarthome',
+    // },
+    // {
+    //     title: 'Świadectwa energetyczne',
+    //     img: '/images/certificates.jpg',
+    //     alt: 'Świadectwa energetyczne',
+    //     path: '/realizacje/swiadectwa-energetyczne',
+    // },
+    // {
+    //     title: 'Nadzór budowlany',
+    //     img: '/images/safety.jpg',
+    //     alt: 'Nadzór budowlany',
+    //     path: '/realizacje/nadzor-budowlany',
+    // },
 ];
