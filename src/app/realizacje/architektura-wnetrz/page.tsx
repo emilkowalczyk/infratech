@@ -19,7 +19,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-salonu" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-salonu/1.jpg" alt="sad okregowy"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-salonu/1.jpg" alt="wizualizacja-salonu"
                                width={1000}
                                height={0}
                                priority
@@ -31,13 +31,25 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-kuchni" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg" alt="sad okregowy"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg" alt="wizualizacja-kuchni"
                                width={1000}
                                height={0}
                                priority
                                className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
                         <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
                             Wizualizacja kuchni
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki/1.jpg" alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja łazienki
                         </h3>
                     </div>
                 </Link>
