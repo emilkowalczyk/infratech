@@ -3,8 +3,6 @@ import {portfolioData} from "@/data/data";
 import Link from "next/link";
 
 function Realizacje() {
-
-
     return (
         <div className='mt-20 flex flex-col items-center md:mx-auto md:max-w-7xl md:w-full'>
             <div className='grid grid-cols-1 '>
