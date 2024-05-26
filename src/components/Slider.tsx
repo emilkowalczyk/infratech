@@ -51,6 +51,32 @@ function Slider() {
                 swipeable
                 responsive={responsive}
             >
+                {/*...*/}
+
+                <div className='relative'>
+                    <Image
+                        width={1920}
+                        height={720}
+                        alt='x'
+                        src='/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg'
+                        className='w-full min-h-[800px] object-cover max-h-[800px] block'
+                        priority
+                    />
+                    <div
+                        className='w-full h-full bg-gradient-to-t from-[rgba(0,0,0,0.6)] to-transparent z-10 absolute bottom-0 left-0'>
+                        <div
+                            className='px-5 pb-5 flex flex-col justify-end w-full h-full max-w-7xl mx-auto md:-translate-y-10'>
+                            <h1 className='text-3xl text-white font-semibold mb-6 md:text-6xl'>
+                                Wizualizacja kuchni
+                            </h1>
+                            <p className='hidden md:block text-white mb-6'>
+
+                            </p>
+                            <Button label='Więcej realizacji' path='/realizacje'/>
+                        </div>
+                    </div>
+                </div>
+
                 {/*///*/}
 
                 <div className='relative'>
