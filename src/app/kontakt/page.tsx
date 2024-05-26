@@ -13,14 +13,18 @@ function Kontakt() {
                     </div>
                     <div>
                         <h2 className={`text-lg font-semibold text-center md:text-left`}>Piotr Klimek</h2>
-                        <div className='text-black text-center lg:text-left mb-6'>
+                        <div className='text-black text-center md:text-left mb-6'>
+                            <p>Instalacje SmartHome</p>
+                            <p>Instalacje elektryczne</p>
                             <p>Tel: <a href='tel:+123456789'> 606 694 539</a></p>
                             <p>E-mail: <a href='mailto:example@mail.com'> kontakt@infratechgroup.pl</a></p>
                         </div>
                     </div>
                     <div>
                         <h2 className={`text-lg font-semibold text-center md:text-left`}>Mariola Klimek</h2>
-                        <div className='text-black text-center lg:text-left mb-6'>
+                        <div className='text-black text-center md:text-left mb-6'>
+                            <p>Nadzory budowlane</p>
+                            <p>Świadectwa energetyczne</p>
                             <p>Tel: <a href='tel:+123456789'> 604 856 876</a></p>
                             <p>E-mail: <a href='mailto:example@mail.com'> kontakt@infratechgroup.pl</a></p>
                         </div>
@@ -28,7 +32,8 @@ function Kontakt() {
                     </div>
                     <div>
                         <h2 className={`text-lg font-semibold text-center md:text-left`}>Konrad Klimek</h2>
-                        <div className='text-black text-center lg:text-left mb-6'>
+                        <div className='text-black text-center md:text-left mb-6'>
+                            <p>Architektura wnętrz</p>
                             <p>Tel: <a href='tel:+123456789'> 606 584 687</a></p>
                             <p>E-mail: <a href='mailto:example@mail.com'> kontakt@infratechgroup.pl</a></p>
                         </div>
