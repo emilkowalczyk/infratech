@@ -11,7 +11,7 @@ function ArchitekturaWnetrz() {
                         <Image src="/images/architektura-wnetrz/sad-okregowy/1.jpg" alt="sad okregowy" width={1000}
                                height={0}
                                priority
-                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                               className="w-full aspect-square object-cover object-cover transition duration-300 hover:scale-[1.03]"/>
                         <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
                             Koncepcja Czytelni Akt Sąd Okręgowy Warszawa Praga
                         </h3>
@@ -50,6 +50,110 @@ function ArchitekturaWnetrz() {
                                className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
                         <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
                             Wizualizacja łazienki
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki-1" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-1/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja łazienki
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki-2" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-2/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja łazienki
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-pokojow" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-pokojow/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja pokojów
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja mieszkania
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania-1" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-1/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja mieszkania
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania-2" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-2/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja mieszkania
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-e-on" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-e-on/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja elewacji budynku E-ON
+                        </h3>
+                    </div>
+                </Link>
+                <Link href="/realizacje/architektura-wnetrz/wizualizacja-skupu-katalizatorow" className={`relative`}>
+                    <div className={`overflow-hidden`}>
+                        <Image src="/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.jpg"
+                               alt="wizualizacja lazienki"
+                               width={1000}
+                               height={0}
+                               priority
+                               className="w-full aspect-square object-cover transition duration-300 hover:scale-[1.03]"/>
+                        <h3 className='absolute right-0 bottom-4 bg-white px-10 py-3 text-center text-black text-xl'>
+                            Wizualizacja skupu katalizatorów
                         </h3>
                     </div>
                 </Link>

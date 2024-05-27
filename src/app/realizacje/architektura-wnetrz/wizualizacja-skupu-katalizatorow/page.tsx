@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from "next/image";
 
-function WizualizacjaKuchni() {
-    const images = ['/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg', '/images/architektura-wnetrz/wizualizacja-kuchni/2.jpg', '/images/architektura-wnetrz/wizualizacja-kuchni/3.jpg', '/images/architektura-wnetrz/wizualizacja-kuchni/4.jpg']
+function WizualizacjaSkupuKatalizatorow() {
+    const images = ['/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/2.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/3.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/4.jpg']
     return (
         <div className={`grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto px-5 gap-5`}>
             {images.map((image, i) => (
@@ -16,4 +16,4 @@ function WizualizacjaKuchni() {
     );
 }
 
-export default WizualizacjaKuchni
+export default WizualizacjaSkupuKatalizatorow

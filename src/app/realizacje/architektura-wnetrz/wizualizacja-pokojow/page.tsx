@@ -1,0 +1,19 @@
+import React from 'react';
+import Image from "next/image";
+
+function WizualizacjaPokojow() {
+    const images = ['/images/architektura-wnetrz/wizualizacja-pokojow/1.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/2.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/3.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/4.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/5.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/6.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/7.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/8.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/9.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/10.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/11.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/12.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/13.jpg', '/images/architektura-wnetrz/wizualizacja-pokojow/14.jpg']
+    return (
+        <div className={`grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto px-5 gap-5`}>
+            {images.map((image, i) => (
+                <div key={i}>
+                    <Image src={image} width={1000} height={0} className={`w-full aspect-square object-cover`}
+                           alt={`image`}
+                           priority/>
+                </div>
+            ))}
+        </div>
+    );
+}
+
+export default WizualizacjaPokojow
