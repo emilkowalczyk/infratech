@@ -100,18 +100,6 @@ export const offerData = [
         path: '/oferta/architektura-wnetrz',
     },
     {
-        title: 'Instalacje elektryczne',
-        img: '/images/electrical.webp',
-        alt: 'Instalacje elektryczne',
-        path: '/oferta/instalacje-elektryczne',
-    },
-    {
-        title: 'Instalacje smarthome',
-        img: '/images/smarthome.webp',
-        alt: 'Instalacje smarthome',
-        path: '/oferta/instalacje-smarthome',
-    },
-    {
         title: 'Świadectwa energetyczne',
         img: '/images/certificates.webp',
         alt: 'Świadectwa energetyczne',
@@ -122,6 +110,18 @@ export const offerData = [
         img: '/images/safety.webp',
         alt: 'Nadzór budowlany',
         path: '/oferta/nadzor-budowlany',
+    },
+    {
+        title: 'Instalacje elektryczne',
+        img: '/images/electrical.webp',
+        alt: 'Instalacje elektryczne',
+        path: '/oferta/instalacje-elektryczne',
+    },
+    {
+        title: 'Instalacje smarthome',
+        img: '/images/smarthome.webp',
+        alt: 'Instalacje smarthome',
+        path: '/oferta/instalacje-smarthome',
     },
 ];
 
