@@ -29,7 +29,7 @@ function SwiadectwaEnergetyczne() {
                         </p>
                     </div>
                     <Image
-                        src={'/images/certificates.jpg'}
+                        src={'/images/certificates.webp'}
                         alt='About us'
                         width={1920}
                         height={0}

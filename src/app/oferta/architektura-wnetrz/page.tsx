@@ -29,7 +29,7 @@ function ArchitekturaWnetrz() {
                         </p>
                     </div>
                     <Image
-                        src={'/images/architektura-wnetrz/sad-okregowy/1.jpg'}
+                        src={'/images/architektura-wnetrz/sad-okregowy/1.webp'}
                         alt='About us'
                         width={1920}
                         height={0}

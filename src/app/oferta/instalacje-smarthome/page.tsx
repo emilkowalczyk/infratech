@@ -29,7 +29,7 @@ function InstalacjeSmarthome() {
                         </p>
                     </div>
                     <Image
-                        src={'/images/smarthome.jpg'}
+                        src={'/images/smarthome.webp'}
                         alt='About us'
                         width={1920}
                         height={0}

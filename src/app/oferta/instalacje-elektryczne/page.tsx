@@ -29,7 +29,7 @@ function InstalacjeElektryczne() {
                         </p>
                     </div>
                     <Image
-                        src={'/images/electrical.jpg'}
+                        src={'/images/electrical.webp'}
                         alt='About us'
                         width={1920}
                         height={0}
