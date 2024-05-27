@@ -8,7 +8,7 @@ function ArchitekturaWnetrz() {
             <div className={`mt-20 w-full mx-auto px-5 max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-5`}>
                 <Link href="/realizacje/architektura-wnetrz/sad-okregowy" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/sad-okregowy/1.jpg" alt="sad okregowy" width={1000}
+                        <Image src="/images/architektura-wnetrz/sad-okregowy/1.webp" alt="sad okregowy" width={1000}
                                height={0}
                                priority
                                className="w-full aspect-square object-cover object-cover transition duration-300 hover:scale-[1.03]"/>
@@ -19,7 +19,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-salonu" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-salonu/1.jpg" alt="wizualizacja-salonu"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-salonu/1.webp" alt="wizualizacja-salonu"
                                width={1000}
                                height={0}
                                priority
@@ -31,7 +31,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-kuchni" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg" alt="wizualizacja-kuchni"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-kuchni/1.webp" alt="wizualizacja-kuchni"
                                width={1000}
                                height={0}
                                priority
@@ -43,7 +43,8 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki/1.jpg" alt="wizualizacja lazienki"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki/1.webp"
+                               alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
                                priority
@@ -55,7 +56,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki-1" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-1/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-1/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -68,7 +69,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-lazienki-2" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-2/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-lazienki-2/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -81,7 +82,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-pokojow" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-pokojow/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-pokojow/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -94,7 +95,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -107,7 +108,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania-1" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-1/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-1/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -120,7 +121,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-mieszkania-2" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-2/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-mieszkania-2/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -133,7 +134,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-e-on" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-e-on/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-e-on/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}
@@ -146,7 +147,7 @@ function ArchitekturaWnetrz() {
                 </Link>
                 <Link href="/realizacje/architektura-wnetrz/wizualizacja-skupu-katalizatorow" className={`relative`}>
                     <div className={`overflow-hidden`}>
-                        <Image src="/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.jpg"
+                        <Image src="/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.webp"
                                alt="wizualizacja lazienki"
                                width={1000}
                                height={0}

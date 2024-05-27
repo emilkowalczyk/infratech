@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 
 function WizualizacjaSkupuKatalizatorow() {
-    const images = ['/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/2.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/3.jpg', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/4.jpg']
+    const images = ['/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/1.webp', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/2.webp', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/3.webp', '/images/architektura-wnetrz/wizualizacja-skupu-katalizatorow/4.webp']
     return (
         <div className={`grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto px-5 gap-5`}>
             {images.map((image, i) => (

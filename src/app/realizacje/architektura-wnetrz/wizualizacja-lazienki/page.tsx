@@ -2,7 +2,7 @@ import React from 'react';
 import Image from "next/image";
 
 function WizualizacjaLazienki() {
-    const images = ['/images/architektura-wnetrz/wizualizacja-lazienki/1.jpg', '/images/architektura-wnetrz/wizualizacja-lazienki/2.jpg']
+    const images = ['/images/architektura-wnetrz/wizualizacja-lazienki/1.webp', '/images/architektura-wnetrz/wizualizacja-lazienki/2.webp']
     return (
         <div className={`grid grid-cols-1 md:grid-cols-2 w-full max-w-7xl mx-auto px-5 gap-5`}>
             {images.map((image, i) => (
