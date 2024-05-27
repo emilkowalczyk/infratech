@@ -58,7 +58,7 @@ function Slider() {
                         width={1920}
                         height={720}
                         alt='x'
-                        src='/images/architektura-wnetrz/wizualizacja-kuchni/1.jpg'
+                        src='/images/architektura-wnetrz/wizualizacja-kuchni/1.webp'
                         className='w-full min-h-[800px] object-cover max-h-[800px] block'
                         priority
                     />
@@ -84,7 +84,7 @@ function Slider() {
                         width={1920}
                         height={720}
                         alt='x'
-                        src='/images/architektura-wnetrz/wizualizacja-salonu/1.jpg'
+                        src='/images/architektura-wnetrz/wizualizacja-salonu/1.webp'
                         className='w-full min-h-[800px] object-cover max-h-[800px] block'
                         priority
                     />
@@ -109,7 +109,7 @@ function Slider() {
                         width={1920}
                         height={720}
                         alt='x'
-                        src='/images/architektura-wnetrz/sad-okregowy/1.jpg'
+                        src='/images/architektura-wnetrz/sad-okregowy/1.webp'
                         className='w-full min-h-[800px] object-cover max-h-[800px] block'
                         priority
                     />
